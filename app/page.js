@@ -6,7 +6,8 @@ import Cards from "@/components/Cards/Cards";
 import PopularCategories from "@/components/PopularCategories/PopularCategories";
 import PopularOnChaldal from "@/components/PopularOnChaldal/PopularOnChaldal";
 import ShopGetMore from "@/components/ShopGetMore/ShopGetMore";
-import AppPromotion from "@/components/AppPromotion/AppPromotion.jsx";
+import AppPromotion from "@/components/AppPromotion/AppPromotion";
+import StatsSection from "@/components/StatsSection/StatsSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <PopularOnChaldal/>
       <ShopGetMore />
       <AppPromotion />
+      <StatsSection />
     </>
   );
 }
