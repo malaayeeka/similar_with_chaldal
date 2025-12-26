@@ -11,6 +11,7 @@ import StatsSection from "@/components/StatsSection/StatsSection";
 import DeliverySection from "@/components/DeliverySection/DeliverySection";
 import FAQSection from "@/components/FAQSection/FAQSection";
 import Family from "@/components/Family/Family";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <DeliverySection />
       <FAQSection />
       <Family />
-
+      <Footer />
     </>
   );
 }
