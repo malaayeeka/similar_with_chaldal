@@ -7,37 +7,37 @@ const categories = [
   {
     id: 1,
     name: "Fruits & Vegetables",
-    image: "/categories/fruits.webp",
+    image: "/fruitsAndVegs.webp",
   },
   {
     id: 2,
     name: "Meat & Fish",
-    image: "/categories/meat.webp",
+    image: "/meatAndFish.webp",
   },
   {
     id: 3,
     name: "Cooking",
-    image: "/categories/cooking.webp",
+    image: "/cooking.webp",
   },
   {
     id: 4,
     name: "Beverages",
-    image: "/categories/beverages.webp",
+    image: "/beverages.webp",
   },
   {
     id: 5,
     name: "Home & Cleaning",
-    image: "/categories/cleaning.webp",
+    image: "/home-cleaning.webp",
   },
   {
     id: 6,
     name: "Pest Control",
-    image: "/categories/pest.webp",
+    image: "/pest-control.webp",
   },
   {
     id: 7,
     name: "Stationery & Office",
-    image: "/categories/stationery.webp",
+    image: "/stationary.webp",
   },
 ];
 

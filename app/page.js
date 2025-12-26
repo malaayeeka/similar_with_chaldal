@@ -4,6 +4,7 @@ import Banner from "@/components/Banner/Banner";
 import Sidebar from "@/components/Navbar/Sidebar";
 import Cards from "@/components/Cards/Cards";
 import PopularCategories from "@/components/PopularCategories/PopularCategories";
+import PopularOnChaldal from "@/components/PopularOnChaldal/PopularOnChaldal";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Sidebar />
       <Cards/>
       <PopularCategories />
+      <PopularOnChaldal/>
     </>
   );
 }
