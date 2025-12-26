@@ -6,6 +6,7 @@ import Cards from "@/components/Cards/Cards";
 import PopularCategories from "@/components/PopularCategories/PopularCategories";
 import PopularOnChaldal from "@/components/PopularOnChaldal/PopularOnChaldal";
 import ShopGetMore from "@/components/ShopGetMore/ShopGetMore";
+import AppPromotion from "@/components/AppPromotion/AppPromotion.jsx";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <PopularCategories />
       <PopularOnChaldal/>
       <ShopGetMore />
+      <AppPromotion />
     </>
   );
 }
