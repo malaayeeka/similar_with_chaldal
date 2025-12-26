@@ -8,6 +8,8 @@ import PopularOnChaldal from "@/components/PopularOnChaldal/PopularOnChaldal";
 import ShopGetMore from "@/components/ShopGetMore/ShopGetMore";
 import AppPromotion from "@/components/AppPromotion/AppPromotion";
 import StatsSection from "@/components/StatsSection/StatsSection";
+import DeliverySection from "@/components/DeliverySection/DeliverySection";
+import FAQSection from "@/components/FAQSection/FAQSection";
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
       <ShopGetMore />
       <AppPromotion />
       <StatsSection />
+      <DeliverySection />
+      <FAQSection />
+
     </>
   );
 }
