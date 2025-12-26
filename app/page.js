@@ -5,6 +5,7 @@ import Sidebar from "@/components/Navbar/Sidebar";
 import Cards from "@/components/Cards/Cards";
 import PopularCategories from "@/components/PopularCategories/PopularCategories";
 import PopularOnChaldal from "@/components/PopularOnChaldal/PopularOnChaldal";
+import ShopGetMore from "@/components/ShopGetMore/ShopGetMore";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Cards/>
       <PopularCategories />
       <PopularOnChaldal/>
+      <ShopGetMore />
     </>
   );
 }

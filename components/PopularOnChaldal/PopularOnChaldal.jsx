@@ -1,4 +1,3 @@
-// components/PopularOnChaldal.jsx
 import Image from "next/image";
 
 const brands = [
