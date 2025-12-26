@@ -10,6 +10,7 @@ import AppPromotion from "@/components/AppPromotion/AppPromotion";
 import StatsSection from "@/components/StatsSection/StatsSection";
 import DeliverySection from "@/components/DeliverySection/DeliverySection";
 import FAQSection from "@/components/FAQSection/FAQSection";
+import Family from "@/components/Family/Family";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <StatsSection />
       <DeliverySection />
       <FAQSection />
+      <Family />
 
     </>
   );
