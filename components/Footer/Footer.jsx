@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-[#F7F7F7] pt-12 pb-6 text-[#4D4D4D] font-sans">
       <div className="max-w-[1400px] mx-auto px-10">
         
-        {/* Cities Section - একদম উপরে বামে */}
+        {/* Cities Section */}
         <div className="flex items-center gap-6 mb-12 text-[15px]">
           <span className="font-bold text-gray-700">Cities:</span>
           <div className="flex gap-6">
@@ -51,10 +51,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter & Support (5 columns - ডানে পুশ করা) */}
+          {/* Newsletter & Support (5 columns) */}
           <div className="lg:col-span-6 flex flex-col items-end gap-6">
             
-            {/* Phone Number Input - ছবির মতো Rounded এবং Purple border */}
+            {/* Phone Number Input*/}
             <div className="flex w-full max-w-md border border-[#9461fb] rounded-md overflow-hidden bg-white shadow-sm">
               <span className="bg-white px-4 py-2 text-[15px] border-r border-gray-100 flex items-center">
                 +88
@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Payment & Socials */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 gap-8 border-t border-gray-200">
           
-          {/* Payment Methods - আইকনগুলো family ফোল্ডারে থাকলে পাথ আপডেট করুন */}
+          {/* Payment Methods*/}
           <div className="flex items-center gap-5 flex-wrap">
             <span className="font-bold text-[14px] text-gray-700">Payment Methods:</span>
             <div className="flex gap-4 items-center">
@@ -114,7 +114,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-10 text-[13px] text-gray-400">
-          © 2013 Chaldal Limited
+          © 2025 HomiCart Limited
         </div>
       </div>
     </footer>

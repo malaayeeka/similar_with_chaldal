@@ -22,7 +22,7 @@ const Family = () => {
     <section className="max-w-7xl mx-auto px-6 py-16">
       {/* Section Title */}
       <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 text-center mb-12">
-        Be part of the Chaldal Family!
+        Be part of the HomiCart Family!
       </h2>
 
       {/* Cards Container */}

@@ -9,10 +9,10 @@ const AppPromotion = () => {
       {/* Leftside content */}
       <div className="md:w-1/2 space-y-6 text-center md:text-center md:pr-10">
         <h2 className="text-3xl md:text-5xl font-bold text-gray-800 leading-tight">
-          Download The Chaldal App Now!
+          Download The HomiCart App Now!
         </h2>
         <p className="text-lg text-600">
-          Get <span className="font-semibold text-700">5% off</span> on your first order through the Chaldal app and make your shopping experience even smoother! 
+          Get <span className="font-semibold text-700">5% off</span> on your first order through the HomiCart app and make your shopping experience even smoother! 
         </p>
 
         {/* App link */}

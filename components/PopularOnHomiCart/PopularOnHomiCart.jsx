@@ -11,16 +11,19 @@ const brands = [
   { name: "MGI", src: "/fresh.webp" },
 ];
 
-const PopularOnChaldal = () => {
+const PopularOnHomiCart = () => {
   return (
     <section className="py-8 bg-white">
       <h2 className="text-center text-gray-800 text-lg font-medium mb-6">
-        Popular on Chaldal
+        Popular on HomiCart
       </h2>
 
-      <div className="flex justify-center items-center gap-2 flex-wrap">
+      <div className="flex justify-center items-center flex-wrap gap-2 sm:gap-4 md:gap-6">
         {brands.map((brand) => (
-          <div key={brand.name} className="h-18 w-40 relative">
+          <div
+            key={brand.name}
+            className="h-20 w-40 relative hover:scale-105 transition-transform duration-200"
+          >
             <Image
               src={brand.src}
               alt={brand.name}
@@ -34,4 +37,4 @@ const PopularOnChaldal = () => {
   );
 };
 
-export default PopularOnChaldal;
+export default PopularOnHomiCart;
