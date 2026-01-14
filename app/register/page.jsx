@@ -53,7 +53,6 @@ export default function Register() {
       setError("Password must be 8–15 characters");
       return;
     }
-
     if (form.password !== form.confirmPassword) {
       setError("Passwords do not match");
       return;
