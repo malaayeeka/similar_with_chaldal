@@ -18,9 +18,9 @@ export default function Login() {
 
   const isButtonEnabled =
     email.trim() !== "" && password.trim() !== "" && acceptTerms;
+  const [showPassword, setShowPassword] = useState(false);
 
   const router = useRouter();
-
 
   // login main function with firebase
   const handleLogin = async () => {
@@ -77,14 +77,26 @@ export default function Login() {
         {/* Password */}
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">Password</label>
-          <input
-            type="password"
-            placeholder="Enter your password (8–15 characters)"
-            maxLength={15}
-            className="border p-2 rounded w-full focus:outline-none focus:border-red-500"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+
+          <div className="relative">
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="Enter your password (8–15 characters)"
+              maxLength={15}
+              className="border p-2 rounded w-full pr-10 focus:outline-none focus:border-red-500"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            {/* Eye Icon */}
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-600 hover:text-gray-800"
+              aria-label={showPassword ? "Hide password" : "Show password"}
+            >
+              {showPassword ? "🙈" : "👁️"}
+            </button>
+          </div>
         </div>
 
         {/* Terms */}
@@ -105,10 +117,6 @@ export default function Login() {
 
         {/* Error */}
         {error && <p className="text-red-500 text-sm mb-3">{error}</p>}
-
-
-
-        
 
         {/* Login Button */}
         <button
